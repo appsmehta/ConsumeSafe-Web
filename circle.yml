@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.0.0
+test:
+  override:
+    - npm test -- --coverage
+  # post:
+  #   - npm install -g codeclimate-test-reporter
+  #   - pwd && ls
+  #   - codeclimate-test-reporter < client/coverage/lcov.info
