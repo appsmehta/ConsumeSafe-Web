@@ -16,6 +16,7 @@
 .env.test.local
 .env.production.local
 
+#remove lock files
 yarn.lock
 
 npm-debug.log*
